@@ -1,8 +1,8 @@
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
-        int start=1;
         List<List<Integer>> result=new ArrayList<>();
         List<Integer> current=new ArrayList<>();
+        int start=1;
         backtrack(start,n,k,current,result);
         return result;
     }
